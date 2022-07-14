@@ -1,7 +1,7 @@
 <template>
-  <div class="flex justify-between items-center py-2 px-2">
+  <div class="flex justify-between items-center py-4 px-4">
     <h1>{{ name }}</h1>
-    <p> {{ entfernung }}</p>
+    <p class="px-3"> {{ entfernung }} km</p>
     <button class="bg-red-600 py-1 px-1 rounded" @click="removePOI">Delete Point</button>
   </div>
 </template>
